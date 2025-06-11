@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIVE</title>
+    <meta name="description" content="Chair Professor specializing in Data Science, Digital Transformation, and AI Research">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <h2>HIVE</h2>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#research" class="nav-link">Research</a></li>
+                        <li><a href="#publications" class="nav-link">Publications</a></li>
+                        <li><a href="#news" class="nav-link">News</a></li>
+                        <li><a href="#editorial" class="nav-link">Editorial</a></li>
+                        <li><a href="#collaboration" class="nav-link">Collaboration</a></li>
+                    </ul>
+                    <div class="nav-controls">
+                        <button class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="profile-photo">
+                        <img src="1614150448861.jpeg" alt="Dr. Pooja Sarin" class="profile-img">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Dr. Pooja Sarin</h1>
+                    <p class="hero-subtitle">Assistant Professor| Doctoral Scholar(Big Data Analytics in Web 3.0)</p>
+                    <div class="hero-affiliations">
+                        <p><i class="fas fa-university"></i>School Of Computer Science, Data Science Cluster</p>
+                        <p><i class="fas fa-graduation-cap"></i> BPSMV | UIET-KUK| IIT Delhi</p>
+                        <p><i class="fas fa-brain"></i> AI, Data Science & Digital Transformation</p>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="200">0</span>
+                            <span class="stat-label">Publications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="20000">0</span>
+                            <span class="stat-label">Citations</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="65">0</span>
+                            <span class="stat-label">H-Index</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#collaboration" class="btn btn-primary">Collaborate</a>
+                        <a href="mailto:pooja.sarin@.edu" class="btn btn-secondary">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3><i class="fas fa-user-graduate"></i> Academic Identity</h3>
+                        <p>Chair Professor with multiple institutional affiliations, B.Engg. Gold medalist with extensive academic and industry experience spanning cutting-edge research in digital transformation and AI.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3><i class="fas fa-users"></i> Research Leadership</h3>
+                        <p>Leading interdisciplinary research teams, fostering collaborative environments, and driving innovation across multiple research centers with a focus on computational social systems.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3><i class="fas fa-lightbulb"></i> Innovation Focus</h3>
+                        <p>Pioneering research in AI applications, large language models, and emerging technology governance with direct impact on industry and public policy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests Section -->
+    <section class="section bg-light" id="research">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Science & Digital Transformation</h3>
+                    <p>Advanced analytics, machine learning applications, and organizational digital transformation strategies.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Natural Language Processing</h3>
+                    <p>Social computing, sentiment analysis, and computational linguistics for understanding human behavior.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Internet Ecosystems</h3>
+                    <p>Social media analysis, digital communities, and online behavior patterns.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Graph Mining</h3>
+                    <p>Network analysis, social graphs, and computational social systems.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Large Language Models</h3>
+                    <p>AI applications, model optimization, and ethical AI development.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>ICT-based Public Policy</h3>
+                    <p>Electronic governance, policy informatics, and technology regulation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section" id="publications">
+        <div class="container">
+            <h2 class="section-title">Publications & Impact</h2>
+            <div class="publications-overview">
+                <div class="pub-stats">
+                    <div class="pub-stat-card">
+                        <h3>200+</h3>
+                        <p>Peer-reviewed Articles</p>
+                    </div>
+                    <div class="pub-stat-card">
+                        <h3>12</h3>
+                        <p>Research Monographs</p>
+                    </div>
+                    <div class="pub-stat-card">
+                        <h3>90+</h3>
+                        <p>Top-tier Journals</p>
+                    </div>
+                    <div class="pub-stat-card">
+                        <h3>18</h3>
+                        <p>ABDC A* Articles</p>
+                    </div>
+                </div>
+                
+                <div class="journal-list">
+                    <h3>Key Journal Publications</h3>
+                    <div class="journal-grid">
+                        <div class="journal-item">Decision Support Systems</div>
+                        <div class="journal-item">Int. Journal of Information Management</div>
+                        <div class="journal-item">Industrial Marketing Management</div>
+                        <div class="journal-item">Technovation</div>
+                        <div class="journal-item">IEEE Trans. Engineering Management</div>
+                        <div class="journal-item">Information Systems Frontiers</div>
+                        <div class="journal-item">Government Information Quarterly</div>
+                        <div class="journal-item">Communications of the ACM</div>
+                    </div>
+                </div>
+
+                <div class="awards-section">
+                    <h3>Awards & Recognition</h3>
+                    <div class="awards-list">
+                        <div class="award-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>IFIP Best Paper Awards (3)</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-award"></i>
+                            <span>TCS Research Award</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-medal"></i>
+                            <span>PMI Young Research Scholar Award</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-star"></i>
+                            <span>IIT Delhi Teaching Excellence Award</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Microsoft AFMR Grant</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>INSA Young Associate Selection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Updates Section -->
+    <section class="section bg-light" id="news">
+        <div class="container">
+            <h2 class="section-title">News & Updates</h2>
+            <div class="news-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">May 29, 2025</div>
+                    <div class="timeline-content">
+                        <h3>PhD Student Success</h3>
+                        <p>PhD student successfully defended dissertation and secured international postdoc placement at prestigious research institution.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">May 16, 2025</div>
+                    <div class="timeline-content">
+                        <h3>ACL Paper Acceptances</h3>
+                        <p>Multiple papers accepted at ACL covering Counterspeech, Taxonomy, and Knowledge Distillation research.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">May 12, 2025</div>
+                    <div class="timeline-content">
+                        <h3>INSA Young Associate</h3>
+                        <p>Selected as INSA Young Associate. IEEE Transactions on AI paper accepted on advanced machine learning applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">May 1, 2025</div>
+                    <div class="timeline-content">
+                        <h3>ICML & JMIR Acceptances</h3>
+                        <p>Research on Large Language Models accepted at ICML'25 and JMIR journal publication confirmed.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">April 29, 2025</div>
+                    <div class="timeline-content">
+                        <h3>IJCAI'25 Acceptance</h3>
+                        <p>Breakthrough research on GenAI for suicide prevention accepted at IJCAI'25.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">April 27, 2025</div>
+                    <div class="timeline-content">
+                        <h3>Media Coverage</h3>
+                        <p>Featured in The Hindu for AI/ML applications in weather prediction and climate research.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Excellence Section -->
+    <section class="section" id="editorial">
+        <div class="container">
+            <h2 class="section-title">Editorial Excellence</h2>
+            <div class="editorial-content">
+                <div class="editorial-grid">
+                    <div class="editorial-card">
+                        <h3>Current Editorial Roles</h3>
+                        <ul>
+                            <li><strong>Senior Editor:</strong> Applied Operations and Analytics (T&F)</li>
+                            <li><strong>Associate Editor:</strong> Communications of AIS</li>
+                            <li><strong>Associate Editor:</strong> Journal of Computer Information Systems</li>
+                            <li><strong>Editorial Board:</strong> Journal of Strategic Information Systems</li>
+                            <li><strong>Editorial Board:</strong> Government Information Quarterly</li>
+                        </ul>
+                    </div>
+                    <div class="editorial-card">
+                        <h3>Past Leadership</h3>
+                        <ul>
+                            <li><strong>Founding Editor in Chief:</strong> IJIM Data Insights (2020-2024)</li>
+                            <li><strong>Guest Editor:</strong> JAIS, MISQ, Information & Management</li>
+                            <li><strong>Conference Leadership:</strong> ICIS, BIGS, PACIS, ECIS, IFIP</li>
+                            <li><strong>Peer Review:</strong> 650+ verified reviews</li>
+                            <li><strong>Editorial Records:</strong> 850+ editorial decisions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="section bg-light" id="collaboration">
+        <div class="container">
+            <h2 class="section-title">Collaboration Opportunities</h2>
+            <div class="collaboration-content">
+                <div class="collab-grid">
+                    <div class="collab-card">
+                        <div class="collab-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>For Prospective Students</h3>
+                        <p><strong>🎓 PhD/MS by Research Positions:</strong> Open applications for motivated researchers</p>
+                        <p><strong>🔬 Research Assistant Roles:</strong> Postdoc and RA opportunities available</p>
+                        <a href="mailto:pooja.sarin@.edu" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    <div class="collab-card">
+                        <div class="collab-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Industry Partnerships</h3>
+                        <p><strong>Consultancy:</strong> Strategic technology consulting</p>
+                        <p><strong>Speaking:</strong> Conference presentations and expert panels</p>
+                        <p><strong>Research:</strong> Joint research initiatives</p>
+                        <a href="mailto:pooja.sarin@.edu" class="btn btn-primary">Partner With Us</a>
+                    </div>
+                </div>
+                
+                <div class="partners-section">
+                    <h3>Research Collaborations</h3>
+                    <div class="partners-grid">
+                        <div class="partner-item">BASF</div>
+                        <div class="partner-item">PWC</div>
+                        <div class="partner-item">Fidelity</div>
+                        <div class="partner-item">EY</div>
+                        <div class="partner-item">Facebook</div>
+                        <div class="partner-item">BitGrit</div>
+                        <div class="partner-item">MEITY</div>
+                        <div class="partner-item">DST</div>
+                        <div class="partner-item">DRDO</div>
+                        <div class="partner-item">MoT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Pooja Sarin</h3>
+                    <p>Assistant Professor| Doctoral Scholar(Big Data Analytics in Web 3.0)</p>
+                    <p>Advancing AI, Data Science & Digital Transformation</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#collaboration">Collaborate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> pooja.sarin@.edu</p>
+                    <p><i class="fas fa-phone"></i> +91-XXX-XXX-XXXX</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-researchgate"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Pooja Sarin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
